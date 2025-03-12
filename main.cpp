@@ -1,6 +1,9 @@
-#include<iostream>
-#include "gps.hpp"
-using namespace std;
-int main(){
-    Gps g;
+#include <iostream>
+#include <vector>
+#include "hospital.hpp"
+
+int main() {
+    HOSPITAL hospital("My Hospital");
+
+    return 0;
 }
