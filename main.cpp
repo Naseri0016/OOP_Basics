@@ -1,7 +1,6 @@
 #include<iostream>
-#include"sky.hpp"
+#include"game.hpp"
 using namespace std;
 int main(){
-    SKY s;
-    s.set_coordinates();
+    GAME one("first game");
 }
