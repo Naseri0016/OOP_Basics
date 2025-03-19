@@ -1,6 +1,8 @@
 #include<iostream>
-#include"game.hpp"
+#include"calendar.hpp"
 using namespace std;
 int main(){
-    GAME one("first game");
+    CALENDAR calender;
+    calender.set_events();
+    return 0;
 }
